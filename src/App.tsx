@@ -3,6 +3,8 @@ import MapComponent from './MapComponent';
 
 const BACKEND_URL = process.env.REACT_APP_API_URL;
 
+const App: React.FC = () => {
+
 // --- INTERFACES DE TIPAGEM ---
 interface Product {
     id: string;
