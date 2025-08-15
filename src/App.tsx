@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import MapComponent from './MapComponent';
 
-BACKEND_URL = process.env.REACT_APP_API_URL;
+const BACKEND_URL = process.env.REACT_APP_API_URL;
 
 // --- INTERFACES DE TIPAGEM ---
 interface Product {
